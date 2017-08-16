@@ -22,6 +22,15 @@ namespace Food_ordering {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// back control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button back;
+        
+        /// <summary>
         /// item control.
         /// </summary>
         /// <remarks>
@@ -38,15 +47,6 @@ namespace Food_ordering {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label itemvalue;
-        
-        /// <summary>
-        /// back control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button back;
         
         /// <summary>
         /// quantity control.

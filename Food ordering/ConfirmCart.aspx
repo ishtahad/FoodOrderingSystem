@@ -26,10 +26,10 @@
     <div>
     
         <br />
+        <asp:Button ID="back" runat="server" OnClick="back_Click" Text="Back" />
         <br />
         <asp:Label ID="item" runat="server" Text="Item:   "></asp:Label>
         <asp:Label ID="itemvalue" runat="server" Text="Label"></asp:Label>
-        <asp:Button ID="back" runat="server" OnClick="back_Click" Text="Back" />
         <br />
         <br />
         <asp:Label ID="quantity" runat="server" Text="Quantity:  "></asp:Label>

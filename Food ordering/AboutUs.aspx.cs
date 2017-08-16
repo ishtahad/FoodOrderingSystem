@@ -16,12 +16,12 @@ namespace Food_ordering
 
         protected void Back_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            Response.Redirect("home.aspx");
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            Response.Redirect("home.aspx");
         }
     }
 }

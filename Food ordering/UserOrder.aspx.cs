@@ -84,7 +84,7 @@ namespace Food_ordering
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            Response.Redirect("home.aspx");
         }
     }
 }

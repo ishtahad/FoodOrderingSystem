@@ -112,7 +112,6 @@
     <Content Include="ConfirmOrder.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css.css" />
-    <Content Include="home.aspx" />
     <Content Include="images\aboutus.png" />
     <Content Include="images\back.jpg" />
     <Content Include="images\contact.jpg" />
@@ -154,7 +153,7 @@
     <Content Include="testimg\7.jpg" />
     <Content Include="testimg\8.jpg" />
     <Content Include="UserOrder.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="Bootstrap\bootstrap-theme.css.map" />
     <Content Include="Bootstrap\bootstrap-theme.min.css.map" />
     <Content Include="Bootstrap\bootstrap.css.map" />
@@ -175,7 +174,6 @@
     <Content Include="test.aspx" />
     <Content Include="images\trav2.jpg" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminMenu.aspx.cs">
@@ -279,13 +277,6 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="home.aspx.cs">
-      <DependentUpon>home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="home.aspx.designer.cs">
-      <DependentUpon>home.aspx</DependentUpon>
-    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -329,19 +320,12 @@
     <Compile Include="UserOrder.aspx.designer.cs">
       <DependentUpon>UserOrder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

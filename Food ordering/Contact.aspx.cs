@@ -35,7 +35,7 @@ namespace Food_ordering
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WebForm2.aspx");
+            Response.Redirect("home.aspx");
         }
     }
 }

@@ -44,7 +44,7 @@ namespace Food_ordering
               }*/
             if (LogDao.LogUser(new LogDTO(userName, password)) == true)
             {
-                Response.Redirect("WebForm2.aspx");
+                Response.Redirect("home.aspx");
             }
             else
             {

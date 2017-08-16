@@ -10,7 +10,7 @@
 namespace Food_ordering {
     
     
-    public partial class home {
+    public partial class WebForm2 {
         
         /// <summary>
         /// form1 control.
@@ -22,57 +22,57 @@ namespace Food_ordering {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ScriptManager1 control.
+        /// logout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.Button logout;
         
         /// <summary>
-        /// UpdatePanel1 control.
+        /// menu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
+        protected global::System.Web.UI.WebControls.Button menu;
         
         /// <summary>
-        /// Timer1 control.
+        /// contact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.Timer Timer1;
+        protected global::System.Web.UI.WebControls.Button contact;
         
         /// <summary>
-        /// Image1 control.
+        /// mycart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Button mycart;
         
         /// <summary>
-        /// ImageButton1 control.
+        /// about control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.Button about;
         
         /// <summary>
-        /// ImageButton2 control.
+        /// myorders control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
+        protected global::System.Web.UI.WebControls.Button myorders;
     }
 }
